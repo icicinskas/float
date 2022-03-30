@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 950px;
+    background: white;
+    padding: 20px;
+}
+
+article {
+    background: transparent;
+    color: #666;
+    border-top: 5px solid #0974b3;
+    overflow: auto;
+    padding: 20px 30px 60px 20px;
+}
+
+.metai {
+    padding-bottom: 15px;
+}
+
+article h1 {
+    color: #0974b3;
+    font-size: 1.8em;
+    font-family: News Cycle; 
+}
+
+article img {
+    width: 140px;
+    float: left;
+    padding-right: 15px;
+    margin: 0 0 5px 0;
+}
+
+p {
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.container {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.citata {
+    font-style: italic;
+}
+
+a {
+    color: rgb(145, 8, 145);
+}
+
+.Isaac .container p {
+    padding-right: 20px;
+}
+
+.Albert,
+.Nikola {
+    padding-left: 20px;
+}
+.Albert {
+    width: 41%;
+    float: left;
+}
+
+.Nikola {
+    width: 44%;
+    float: right;
+}
